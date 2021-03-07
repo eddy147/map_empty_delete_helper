@@ -25,3 +25,5 @@ map_helper-*.tar
 
 # Temporary files for e.g. tests
 /tmp
+
+/.vscode/
