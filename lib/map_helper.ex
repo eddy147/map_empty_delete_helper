@@ -1,4 +1,4 @@
-defmodule MapHelper do
+defmodule Eddy147.MapHelper do
   @moduledoc """
   Deletes empty items recursively in a map.
   """

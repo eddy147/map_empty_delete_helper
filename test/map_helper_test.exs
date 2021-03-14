@@ -1,6 +1,7 @@
 defmodule MapHelperTest do
   use ExUnit.Case
-  doctest MapHelper
+  doctest Eddy147.MapHelper
+  alias Eddy147.MapHelper
 
   test "do nothing if no empty values found" do
     result = MapHelper.removeEmpty(%{})
