@@ -1,9 +1,9 @@
 defmodule MapHelper do
   @moduledoc """
-  Handy tools if you work with a map.
+  Deletes empty items recursively in a map.
   """
   @doc """
-  Removes tuples where the value is empty
+  Deletes empty items recursively in a map.
   """
   def removeEmpty(%{} = map) when is_map(map) do
     compactor = fn({k, v}, acc) ->
