@@ -15,6 +15,12 @@ def deps do
 end
 ```
 
+## Usage
+```
+result = Eddy147.MapHelper.removeEmpty(%{product: %{category: "45", code: nil}, date: "2021-04-01"})
+assert result == %{product: %{category: "45"}, date: "2021-04-01"}
+```
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/map_helper](https://hexdocs.pm/map_helper).
